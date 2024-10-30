@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #0047ab; /* Dark blue */
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #dbe3f2; /* Light blue-gray */
+}
+
+.header-image {
+    width: 50%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+/* Section Styles */
+section {
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 2rem;
+    color: #0047ab;
+    margin-bottom: 1rem;
+    border-left: 6px solid #0047ab;
+    padding-left: 10px;
+}
+
+/* Section Text */
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* Colored Blocks for Sections */
+#introduction {
+    background-color: #e0f7fa; /* Light cyan */
+}
+
+#central-questions {
+    background-color: #e8f5e9; /* Light green */
+}
+
+#ethical-analysis {
+    background-color: #ffebee; /* Light red-pink */
+}
+
+#scientific-analysis {
+    background-color: #f3e5f5; /* Light purple */
+}
+
+#references {
+    background-color: #e1bee7; /* Medium purple */
+}
+
+/* Section Images */
+.section-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #10b7ce;
+    color: #000000;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+/* Add Hover Effects */
+section:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    section h2 {
+        font-size: 1.6rem;
+    }
+    section p {
+        font-size: 1rem;
+    }
+}
